@@ -1,0 +1,21 @@
+{
+  "name": "hours-log-bot",
+  "version": "1.0.0",
+  "description": "Displays hours logged, rate, and pay. Grabs data from google sheets.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node index.js",
+    "dev": "nodemon index.js"
+  },
+  "author": "Joshua Fry",
+  "license": "ISC",
+  "dependencies": {
+    "discord.js": "^11.5.1",
+    "dotenv": "^8.2.0",
+    "google-spreadsheet": "^3.0.8"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.2"
+  }
+}
